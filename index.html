@@ -94,9 +94,9 @@ b{font-weight:700;color:var(--fg)}
 .mark{--s:clamp(230px,34vw,330px);position:relative;width:var(--s);height:var(--s)}
 .mark .tile{position:absolute;inset:0;border-radius:13%;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.45)}
 .mark .tile img{position:absolute;inset:0;display:block;width:100%;height:100%}
-.mark .tile .top{animation:wordShift 12s ease-in-out infinite;will-change:transform}
+.mark .tile .top{animation:wordShift 10s ease-in-out infinite;will-change:transform}
 .mark .tile.two{opacity:0;animation:crossfade 14s ease-in-out infinite;box-shadow:none}
-@keyframes wordShift{0%,100%{transform:translate(0.174%,-0.031%)}50%{transform:translate(-0.522%,0.092%)}}
+@keyframes wordShift{0%,100%{transform:translate(0.435%,-0.077%)}50%{transform:translate(-1.304%,0.23%)}}
 @keyframes crossfade{0%,42%{opacity:0}50%,92%{opacity:1}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){
   .mark .tile.two,.mark .tile .top{animation:none}
